@@ -18,7 +18,10 @@ dsa-c-codes/
 │       ├── BubbleSort.c
 │       ├── InsertionSort.c
 │       └── SelectionSort.c
-│
+│── Stacks/
+│   ├── MenuDriven.c
+│   └── StackOperations.c
+│   
 └── README.md
 ```
 
@@ -31,6 +34,11 @@ dsa-c-codes/
   - Bubble Sort
   - Insertion Sort
   - Selection Sort
+- **Operations**
+  - Push Operation
+  - Pop Operation
+  - Peek Operation
+  - View Operation
 
 More topics (linked lists, stacks, queues, trees, graphs) will be added as the course progresses.
 

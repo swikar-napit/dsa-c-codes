@@ -20,6 +20,7 @@ dsa-c-codes/
 │       └── SelectionSort.c
 │── Queue/
 │   ├── CircularQueue.c
+│   ├── PriorityQueue.c
 │   ├── SimpleQueueUsingArray.c
 │   └── SimpleQueueUsingLinkedList.c
 │── Stacks/

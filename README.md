@@ -18,6 +18,10 @@ dsa-c-codes/
 │       ├── BubbleSort.c
 │       ├── InsertionSort.c
 │       └── SelectionSort.c
+│── Queue/
+│   ├── CircularQueue.c
+│   ├── SimpleQueueUsingArray.c
+│   └── SimpleQueueUsingLinkedList.c
 │── Stacks/
 │   ├── MenuDriven.c
 │   └── StackOperations.c

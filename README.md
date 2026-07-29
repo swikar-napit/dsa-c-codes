@@ -18,6 +18,12 @@ dsa-c-codes/
 │       ├── BubbleSort.c
 │       ├── InsertionSort.c
 │       └── SelectionSort.c
+│── Linked_List/
+│   ├── Circular_Doubly_Linked_List.c
+│   ├── Circular_Linked_List.c
+│   ├── Delete_From_Specific_Position.c
+│   ├── Doubly_Linked_List.c
+│   └── Linked_List.c
 │── Queue/
 │   ├── CircularQueue.c
 │   ├── PriorityQueue.c
@@ -44,8 +50,21 @@ dsa-c-codes/
   - Pop Operation
   - Peek Operation
   - View Operation
+- **Linked List**
+  - Circular Linked List
+  - Circular Doubly Linked List
+  - Doubly Linked List
+  - Linked List
+- **Queue**
+  - Circular Queue
+  - Priority Queue
+  - Simple Queue Using Array
+  - Simple Queue Using Linked List
+- **Stacks**
+  - Menu Driven
+  - Stack Operations
 
-More topics (linked lists, stacks, queues, trees, graphs) will be added as the course progresses.
+More topics (trees, graphs) will be added as the course progresses.
 
 ## ⚙️ How to run
 

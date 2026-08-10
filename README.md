@@ -17,6 +17,8 @@ dsa-c-codes/
 │   └── Sorting/
 │       ├── BubbleSort.c
 │       ├── InsertionSort.c
+│       ├── MergeSort.c
+│       ├── QuickSort.c
 │       ├── RadixSort.c
 │       └── SelectionSort.c
 │── Linked_List/
@@ -45,8 +47,11 @@ dsa-c-codes/
 - **Sorting**
   - Bubble Sort
   - Insertion Sort
+  - Merge Sort
+  - Quick Sort
   - Radix Sort
   - Selection Sort
+
 - **Operations**
   - Push Operation
   - Pop Operation

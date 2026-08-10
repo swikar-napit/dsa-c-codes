@@ -1,6 +1,6 @@
 # DSA C Codes
 
-DSA practice codes in C — arrays, sorting, and searching algorithms implemented for coursework and exam prep.
+DSA practice codes in C — arrays, sorting, and searching algorithms implemented for coursework and exam prep.{LAB WORK }
 
 ## 📌 About
 
@@ -51,7 +51,6 @@ dsa-c-codes/
   - Quick Sort
   - Radix Sort
   - Selection Sort
-
 - **Operations**
   - Push Operation
   - Pop Operation

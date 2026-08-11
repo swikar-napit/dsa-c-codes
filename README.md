@@ -16,6 +16,7 @@ dsa-c-codes/
 │   ├── LinearSearch.c
 │   └── Sorting/
 │       ├── BubbleSort.c
+│       ├── HeapSort.c
 │       ├── InsertionSort.c
 │       ├── MergeSort.c
 │       ├── QuickSort.c

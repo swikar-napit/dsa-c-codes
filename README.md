@@ -21,7 +21,8 @@ dsa-c-codes/
 │       ├── MergeSort.c
 │       ├── QuickSort.c
 │       ├── RadixSort.c
-│       └── SelectionSort.c
+│       ├── SelectionSort.c
+│       └── StableSort.c
 │── Linked_List/
 │   ├── Circular_Doubly_Linked_List.c
 │   ├── Circular_Linked_List.c

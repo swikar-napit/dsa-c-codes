@@ -53,6 +53,7 @@ dsa-c-codes/
   - Quick Sort
   - Radix Sort
   - Selection Sort
+  - Stable Sort
 - **Operations**
   - Push Operation
   - Pop Operation

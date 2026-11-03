@@ -26,7 +26,8 @@ int main(){
         printf("Item Not FOund");
     }
     else{
-        printf("The item is %d", res);
+        printf("The item is %d\n", res);
     }
     return 0;
 }
+//this is the code for the binary search in C 

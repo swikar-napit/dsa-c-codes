@@ -42,7 +42,6 @@
 //          }
 //    END IF
 //  3.STOP
-
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -50,42 +49,46 @@ struct Node{
     int info;
     struct Node *next;
 };
-struct Node *FRONT = NULL, *REAR = NUll;
+struct Node *FRONT = NULL, *REAR = NULL;
 
 void enqueue(int data){
     struct Node *newnode = (struct Node*)malloc(sizeof(struct Node));
-    newnode-> info = data;
-    newnode-> next = NULL;
-    if(REAR = NULL) {
+    newnode->info = data;
+    newnode->next = NULL;
+    if(REAR == NULL) {
         REAR = FRONT = newnode;
     }
     else{
-        REAR -> next=newnode;
+        REAR->next = newnode;
         REAR = newnode;
     }
-
 }
 
 int dequeue(){
     if(FRONT == NULL){
-        printf("Queue Underflow!");
+        printf("Queue Underflow!\n");
+        return -1;
     }
     else{
         struct Node *temp = FRONT;
-        int item= FRONT -> info;
-        FRONT = FRONT -> next;
+        int item = FRONT->info;
+        FRONT = FRONT->next;
+        if(FRONT == NULL){
+            REAR = NULL;   // queue is now empty, reset REAR too
+        }
         free(temp);
         return item;
     }
 }
+
 void display(){
     if(FRONT == NULL){
-        printf("Empty Queue");
+        printf("Empty Queue\n");
     }
     else{
         struct Node *temp = FRONT;
-        while(temp!=NULL){
-            printf("%d->", temp-> info);
+        while(temp != NULL){
+            printf("%d->", temp->info);
             temp = temp->next;
         }
         printf("\n");
